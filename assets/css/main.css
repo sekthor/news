@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  top: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 5em;
+  line-height: 1.5;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
+
+.header {
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+.header > nav {
+  display: inline;
+}
+
+article > h1 {
+  margin-bottom: 0;
+  font-size:xx-large;
+}
+
+#articleinfo {
+  font-size: small;
+}
+pre {
+  padding: 1em;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+code {
+  padding: 0px 5px;
+  border-radius: 5px;
+  background-color: #efefef;
+}
+
+.taxonomylist {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.taxonomylist > li {
+  display: inline;
+}
+
+.listtitle {
+  margin-bottom: 5px;
+  font-size:medium;
+}
+
+h1,h2,h3 {
+  margin-top: 2em;
+  font-weight: normal;
+}

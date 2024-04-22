@@ -1,0 +1,10 @@
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+  <nav>
+    <a href="/posts">posts</a>
+    <a href="/tags">tags</a>
+  </nav>
+{{- end }}
+
